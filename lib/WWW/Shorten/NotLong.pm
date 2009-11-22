@@ -31,7 +31,7 @@ use warnings;
 
 use base qw( WWW::Shorten::generic Exporter );
 our @EXPORT = qw(makeashorterlink makealongerlink);
-our $VERSION = '1.90';
+our $VERSION = '2.00';
 
 use Carp;
 
