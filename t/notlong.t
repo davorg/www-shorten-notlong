@@ -4,7 +4,7 @@ BEGIN { use_ok WWW::Shorten::NotLong };
 
 my $re = qr!^ \Qhttp://\E ([-\w]+) \Q.notlong.com\E/? $ !x;
 my $code;
-my $url = 'http://dave.org.uk/code/WWW-Shorten/dist/';
+my $url = 'http://code.mag-sol.com/WWW-Shorten/dist/';
 
 {
     my $notlong = makeashorterlink( $url );
