@@ -1,0 +1,12 @@
+WWW-Shorten-NotLong*.tar.gz
+WWW-Shorten-NotLong*/
+Build
+Changes
+META.json
+META.yml
+MYMETA.json
+MYMETA.yml
+Makefile.PL
+_build/
+blib/
+cover_db/
