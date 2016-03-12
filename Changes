@@ -1,8 +1,9 @@
-2016-03-11 9.991
+9.991   2016-03-11
     - Cleaned up a bit, removed from TravisCI (No need to CI test a dead dist)
     - Standardized documentation a bit. Made sure links were present.
+    - added contributors
 
-2015-07-19 9.99
+9.99    2015-07-19 9.99
     - Marked as dead. Bumped version for release.
 
 2015-07-18
