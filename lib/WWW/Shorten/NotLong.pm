@@ -1,54 +1,51 @@
-# $Id$
-
-=head1 NAME
-
-WWW::Shorten::NotLong - Perl interface to notlong.com
-
-=head1 SYNOPSIS
-
-  # Do not use
-
-=head1 DESCRIPTION
-
-A Perl interface to the web site notlong.com.  Notlong.com simply maintains
-a database of long URLs, each of which has a unique identifier.
-
-Currently, notlong.com is returning the message "Unable to process that
-request at this time. Consider https://goo.gl" for all requests. I have
-therefore marked it as dead.
-
-=cut
-
 package WWW::Shorten::NotLong;
 
 use 5.006;
 use strict;
 use warnings;
 
+our $VERSION = '9.991';
+$VERSION = eval $VERSION;
+
 require WWW::Shorten::_dead;
-our $VERSION = '9.99';
 
 0;
 
-__END__
+=head1 NAME
 
-=head2 EXPORT
+WWW::Shorten::NotLong - Shorten URLs
 
-makeashorterlink, makealongerlink
+=head1 SYNOPSIS
 
-=head1 SUPPORT, LICENCE, THANKS and SUCH
+  # no viable UserAgent
 
-See the main L<WWW::Shorten> docs.
+=head1 DESCRIPTION
+
+This module is deprecated since the service no longer functions.  Please
+see L<WWW::Shorten> instead.
 
 =head1 AUTHOR
 
-Eric Hammond <ehammond@thinksome.com>
+Eric Hammond C<ehammond@thinksome.com>
 
-Based almost entirely on WWW::Shorten::Shorl by Iain Truskett <spoon@cpan.org>
-which was based on WWW::MakeAShorterLink by Dave Cross <dave@dave.org.uk>
+=head1 CONTRIBUTORS
+
+=over
+
+=item Chase Whitener C<capoeirab@cpan.org> -- current maintainer
+
+=item Dave Cross C<dave@perlhacks.com>
+
+=item Iain Truskett C<spoon@cpan.org>
+
+=back
+
+=head1 COPYRIGHT AND LICENSE
+
+Under the terms and copyright of L<WWW::Shorten>
 
 =head1 SEE ALSO
 
-L<WWW::Shorten>, L<perl>, L<http://notlong.com/>
+L<WWW::Shorten>
 
 =cut
