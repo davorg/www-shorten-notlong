@@ -5,7 +5,7 @@
     - Standardized documentation a bit. Made sure links were present.
     - added contributors
 
-9.99    2015-07-19 9.99
+9.99    2015-07-19
     - Marked as dead. Bumped version for release.
     - Added .travis.yml
     - Added .gitignore
