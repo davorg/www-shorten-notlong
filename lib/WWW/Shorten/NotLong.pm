@@ -17,7 +17,7 @@ WWW::Shorten::NotLong - Shorten URLs
 
 =head1 SYNOPSIS
 
-  # no viable UserAgent
+  # no viable use case
 
 =head1 DESCRIPTION
 
