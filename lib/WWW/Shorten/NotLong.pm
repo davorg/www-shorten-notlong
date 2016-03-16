@@ -13,7 +13,7 @@ require WWW::Shorten::_dead;
 
 =head1 NAME
 
-WWW::Shorten::NotLong - Shorten URLs
+WWW::Shorten::NotLong - (DEPRECATED) Shorten URLs
 
 =head1 SYNOPSIS
 
@@ -32,11 +32,17 @@ Eric Hammond C<ehammond@thinksome.com>
 
 =over
 
-=item Chase Whitener C<capoeirab@cpan.org> -- current maintainer
+=item *
 
-=item Dave Cross C<dave@perlhacks.com>
+Chase Whitener C<capoeirab@cpan.org>
 
-=item Iain Truskett C<spoon@cpan.org>
+=item *
+
+Dave Cross C<dave@perlhacks.com>
+
+=item *
+
+Iain Truskett C<spoon@cpan.org>
 
 =back
 

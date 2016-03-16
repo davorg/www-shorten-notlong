@@ -1,4 +1,11 @@
-9.992   2016-03-11
+Revision history for {{$dist->name}}
+
+{{$NEXT}}
+    - Fixed POD issues
+    - cleaned up build a bit further
+    - fixed contributors
+    - add the deprecated meta info
+    - added a skip clause for author tests
 
 9.991   2016-03-11
     - Cleaned up a bit, removed from TravisCI (No need to CI test a dead dist)

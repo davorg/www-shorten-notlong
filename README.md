@@ -1,11 +1,11 @@
 ## NAME
 
-WWW::Shorten::NotLong - Service to shorten URLs
+WWW::Shorten::NotLong - (DEPRECATED) Service to shorten URLs
 
 # SYNOPSIS
 
 ```perl
-# no viable UserAgent
+# no viable use case
 ```
 
 # DESCRIPTION
@@ -19,7 +19,7 @@ Eric Hammond ehammond@thinksome.com
 
 # CONTRIBUTORS
 
-- Chase Whitener capoeirab@cpan.org -- current maintainer
+- Chase Whitener capoeirab@cpan.org
 - Dave Cross dave@perlhacks.com
 - Iain Truskett spoon@cpan.org
 
