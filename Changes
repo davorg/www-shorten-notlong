@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+9.992     2016-03-16
     - Fixed POD issues
     - cleaned up build a bit further
     - fixed contributors
